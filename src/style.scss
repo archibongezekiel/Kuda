@@ -1,0 +1,176 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@500&display=swap");
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0px;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 70px;
+  box-shadow: rgba(233, 222, 243, 0.831372549) 10px 0px 30px 1px;
+}
+.navbar #kuda-link {
+  text-decoration: none;
+}
+.navbar #logo {
+  margin-left: 50px;
+}
+.navbar .title-head {
+  color: #3f196d;
+  font-family: "Mulish", sans-serif;
+}
+.navbar .create-account-container {
+  border: 1px solid #3f196d;
+  padding: 10px;
+  border-radius: 11px;
+  background-color: #eff1ff;
+  margin-right: 80px;
+}
+.navbar .create-account-container #open-account {
+  color: #3f196d;
+  font-family: "Mulish", sans-serif;
+}
+
+.input-container {
+  width: 430px;
+  margin-left: 50px;
+  margin-top: 60px;
+}
+.input-container #warning-text {
+  background-color: #eff1ff;
+  font-size: 13px;
+  border-radius: 5px;
+  padding: 5px;
+  border: 1px solid #e5e6f0;
+  box-shadow: rgba(233, 222, 243, 0.831372549) 0px 0px 60px 9px;
+}
+.input-container #page-text {
+  color: #3f196d;
+  font-size: 13px;
+  font-family: "muli", sans-serif;
+  padding: 5px;
+}
+.input-container #confirm-link {
+  color: #48d38a;
+  font-size: 13px;
+  text-decoration: none;
+  font-family: "muli", sans-serif;
+}
+.input-container .form-container-div {
+  margin-top: 20px;
+  height: 500px;
+  background-color: #ffffff;
+  border-radius: 5px;
+  box-shadow: rgba(233, 222, 243, 0.831372549) 0px 0px 60px 6px;
+  border: 1px solid #e5e6f0;
+}
+.input-container .form-container-div .container {
+  width: 69%;
+  margin: auto;
+}
+.input-container .form-container-div .header-container {
+  margin-top: 20px;
+}
+.input-container .form-container-div .header-container #header-1 {
+  color: #000000;
+  font-family: "muli", sans-serif;
+  padding: 5px;
+}
+.input-container .form-container-div .header-container #sign-up-account-text {
+  color: #adadad;
+  font-size: 17px;
+  font-family: "muli", sans-serif;
+  font-weight: lighter;
+  padding: 5px;
+}
+.input-container .form-container-div .label-1 {
+  display: flex;
+  flex-direction: column;
+  font-size: 13px;
+  margin-top: 25px;
+}
+.input-container .form-container-div .label-1 #password-txt,
+.input-container .form-container-div .label-1 #email-txt {
+  margin-bottom: 9px;
+  font-family: "Mulish", sans-serif;
+  font-size: 13px;
+}
+.input-container .form-container-div .label-1 #email-input {
+  width: 20rem;
+  padding: 10px;
+  border: 1px solid #e5e6f0;
+  border-radius: 5px;
+  font-size: 17px;
+  outline: none;
+  color: #adadad;
+}
+.input-container .form-container-div .label-1 .password-input {
+  width: 20rem;
+  padding: 10px;
+  border: 1px solid #e5e6f0;
+  border-radius: 5px;
+  font-size: 17px;
+  outline: none;
+  color: #adadad;
+}
+.input-container .form-container-div .label-1 #password-container #vis-icon {
+  position: absolute;
+  left: 28%;
+  top: 54%;
+}
+.input-container .form-container-div #picture {
+  position: absolute;
+  bottom: 200px;
+  left: 700px;
+}
+.input-container .forget-password {
+  color: #adadad;
+  font-family: "muli", sans-serif;
+  font-size: 13px;
+  margin-top: 20px;
+}
+.input-container .forget-password #reset-link {
+  text-decoration: none;
+  color: #3f196d;
+  font-size: 13px;
+  font-family: "muli", sans-serif;
+}
+.input-container #sign-button {
+  background-color: #53307c;
+  outline: none;
+  border: none;
+  padding: 10px;
+  color: white;
+  border-radius: 10px;
+  width: 140px;
+  height: 46px;
+  margin-top: 20px;
+}
+.input-container .download-txt {
+  margin-top: 20px;
+  color: #adadad;
+  font-size: 13px;
+  font-family: "Mulish", sans-serif;
+}
+.input-container .download-txt #download-link {
+  text-decoration: none;
+  color: #3f196d;
+}
+
+.live-chat {
+  text-align: end;
+  padding: 20px;
+  margin-top: 20px;
+}
+.live-chat #live-chat-icon {
+  background-color: #3f196d;
+  padding: 23px;
+  border-radius: 50px 5px 50px 50px;
+  text-align: center;
+}
+.live-chat #chat-icon {
+  color: white;
+} /*# sourceMappingURL=style.css.map */
